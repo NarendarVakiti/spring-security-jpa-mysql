@@ -1,8 +1,8 @@
 This project mainly focused on Spring security and springboot, I include java8 features, JPA, and MySQL Database.
 
-I added Database dump file in resource folder for DB access.
+Note : I added Database dump file in resource folder for DB access.
 
-Below are the URL's for access
+**Below are the URL's for access**
 
 Not required any credential for below URL's
 
@@ -13,14 +13,14 @@ Not required any credential for below URL's
 
 We can access below URL's using required credentials and based on the specific roles:
 
-username : arjuna
+*  http://localhost:8080/user
+   username : arjuna
+   password : arjuna
 
-password : arjuna
 
-http://localhost:8080/user
 
-username : drona
+*  http://localhost:8080/admin
+   username : drona
+   password : drona
 
-password : drona
 
-http://localhost:8080/admin
