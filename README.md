@@ -14,13 +14,17 @@ Not required any credential for below URL's
 We can access below URL's using required credentials and based on the specific roles:
 
 *  http://localhost:8080/user
-   username : arjuna
-   password : arjuna
+   
+username : arjuna
+
+password : arjuna
 
 
 
 *  http://localhost:8080/admin
-   username : drona
-   password : drona
+   
+username : drona
+
+password : drona
 
 
