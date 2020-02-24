@@ -16,10 +16,11 @@ public class MyUserDetailsService implements UserDetailsService {
 
 	@Autowired
 	MyUserDao myUserDao;
+	
 	@Override
 	public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
 		Optional<User> user = myUserDao.findByUserName(userName);
-        //user.orElseThrow(() -> new UsernameNotFoundException("Not found: " + userName));
+        user.orElseThrow(() -> new UsernameNotFoundException("Not found: " + userName));
         return user.map(MyUserDetails::new).get();
 	}
 
